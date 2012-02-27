@@ -13,11 +13,11 @@ Create an account at http://openshift.redhat.com/
 
 Create a rails application
 
-	rhc-create-app -a redmine -t ruby-1.8
+	rhc app create -a redmine -t ruby-1.8
 
 Add mysql support to your application
     
-	rhc-ctl-app -a redmine -e add-mysql-5.1
+	rhc app cartridge add -a redmine -c mysql-5.1
 Make a note of the username, password, and host name as you will need to use these to login to the mysql database
 
 Add this upstream rails quickstart repo
