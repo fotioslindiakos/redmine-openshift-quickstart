@@ -13,7 +13,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a rails application
 
-	rhc-create-app -a redmine -t rack-1.1
+	rhc-create-app -a redmine -t ruby-1.8
 
 Add mysql support to your application
     
