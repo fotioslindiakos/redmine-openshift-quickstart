@@ -17,7 +17,7 @@ Create a rails application
 
 Add mysql support to your application
     
-	rhc app cartridge add -a redmine -c mysql-5.1
+	rhc cartridge add -a redmine -c mysql-5.1
 Make a note of the username, password, and host name as you will need to use these to login to the mysql database
 
 Add this upstream rails quickstart repo
