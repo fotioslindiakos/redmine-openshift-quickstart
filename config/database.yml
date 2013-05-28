@@ -3,9 +3,9 @@
 production:
   adapter: mysql
   database: redmine
-  host: Database host provided by openshift
-  username: admin
-  password: password provided by openshift
+  host: <%=ENV['OPENSHIFT_MYSQL_DB_HOST']%>
+  username: <%=ENV['OPENSHIFT_MYSQL_DB_USERNAME']%>
+  password: <%=ENV['OPENSHIFT_MYSQL_DB_PASSWORD']%>
   encoding: utf8
  
 development:

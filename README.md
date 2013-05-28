@@ -27,11 +27,6 @@ Add this upstream rails quickstart repo
 	git remote add upstream -m master git://github.com/openshift/redmine-openshift-quickstart.git
 	git pull -s recursive -X theirs upstream master
 
-Add your database username and password 
-
-	vi config/database.yml
-	git commit -a -m "Adding mysql auth information"
-
 Then push the repo upstream
 
 	git push
