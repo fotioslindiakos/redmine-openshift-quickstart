@@ -23,7 +23,7 @@ Make a note of the username, password, and host name as you will need to use the
 Add this upstream rails quickstart repo
 
 	cd redmine
-	rm -rf *
+	git rm -rf *
 	git remote add upstream -m master git://github.com/openshift/redmine-openshift-quickstart.git
 	git pull -s recursive -X theirs upstream master
 
